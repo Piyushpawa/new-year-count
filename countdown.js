@@ -5,7 +5,7 @@ function updateCountdown() {
   let minBox = document.getElementById("min-box");
   let secBox = document.getElementById("sec-box");
 
-  let endDate = new Date("January 1, 2025 00:00:00").getTime();
+  let endDate = new Date("January 1, 2026 00:00:00").getTime();
   let now = new Date().getTime();
   let remainingTime = endDate - now;
 
